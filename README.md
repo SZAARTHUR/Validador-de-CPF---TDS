@@ -19,7 +19,7 @@ Configurar o ambiente de trabalho no GitHub e realizar a primeira exibição de 
     - Um arquivo `README.md`, descrevendo o projeto e listando estas etapas.
     - Um arquivo de **licença** (por exemplo, MIT License).
     - Um arquivo de código `.por`.
-- [ ] Exibir um CPF usando o comando [`escreva`](https://github.com/gutohertzog/tds-senac-tech/blob/main/uc2-desenvolver-algoritmos/1.portugol/entrada-saida.md#fun%C3%A7%C3%A3o-escreva).
+- [x] Exibir um CPF usando o comando [`escreva`](https://github.com/gutohertzog/tds-senac-tech/blob/main/uc2-desenvolver-algoritmos/1.portugol/entrada-saida.md#fun%C3%A7%C3%A3o-escreva).
 
 # Como usar checkbox no README
 
