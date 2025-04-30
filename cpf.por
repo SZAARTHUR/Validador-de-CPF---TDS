@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+
    inteiro  num1,num2,num3,num4
     num1=111
     num2=444
