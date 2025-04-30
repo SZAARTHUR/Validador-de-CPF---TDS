@@ -27,9 +27,9 @@ Configurar o ambiente de trabalho no GitHub e realizar a primeira exibição de 
 Armazenar e exibir o CPF formatado utilizando variáveis.
 
 ### Tarefas
-- [ ] Criar **quatro variáveis inteiras**.
-- [ ] Atribuir valores a essas variáveis (valores fixos).
-- [ ] Exibir o CPF formatado a partir dessas variáveis.
+- [x] Criar **quatro variáveis inteiras**.
+- [x] Atribuir valores a essas variáveis (valores fixos).
+- [x] Exibir o CPF formatado a partir dessas variáveis.
 
 
 # Como usar checkbox no README
