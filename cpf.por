@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+
   inteiro cpf, num1, num2, num3, num4
 escreva("\ndigite os 3 prineiros numeros do cpf :")
 leia(num1)
@@ -10,7 +11,7 @@ leia(num3)
 escreva("\ndigite os 2 numeros do cpf :")
 
 escreva("cpf: ",num1,".",num2,".",num3,"-"num4)
-    
+
 
   }
 }
