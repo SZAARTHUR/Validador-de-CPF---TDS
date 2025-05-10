@@ -2,7 +2,9 @@
 
 # Desenvolvimento do Projeto
 
-Arthur, Donelson e Pablo
+Arthur     = github.com/SZAARTHUR
+Donalson   = github.com/Dodo-6334
+Pablo      = github.com/Pablech
 
 ## Checklist de Etapas
 
