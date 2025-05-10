@@ -1,54 +1,28 @@
 programa {
+  inclua biblioteca Texto
+  inclua biblioteca Tipos
   funcao inicio() {
-    
-    inteiro num1, num2, num3, num4
 
-      escreva("\nDigite os 3 prineiros números do seu cpf: ")
-      leia(num1)
-      limpa()
+    inteiro tam
+    cadeia cpf, numeros = "", digitos = ""    // NÃO ENTENDI POR QUE AS
+    caracter num = ' '                        // VARIÁVEIS DEVEM SER INICIADAS
 
-        se(num1 <= 0){
-          escreva("Digite um número maior que 0 (zero)")
-          escreva("\nDigite os 3 prineiros números do seu cpf: ")
-          leia(num1) 
-          limpa()    
-          }        
+      escreva("Digite um CPF no formato (000.000.000-00): ")
+      leia(cpf)
+
+      tam = Texto.numero_caracteres(cpf)
+
+          para(inteiro i = 0; i < tam - 3; i++){
+            num = Texto.obter_caracter(cpf, i)
+            numeros += Tipos.caracter_para_cadeia(num)
+          } 
+          para(inteiro i = 12; i < tam; i++){
+            num = Texto.obter_caracter(cpf, i)
+            digitos += Tipos.caracter_para_cadeia(num)
+          	}
       
-      escreva("\nDigite os 3 números meio do seu cpf: ")
-      leia(num2)
-      limpa()
-
-        se(num2 <= 0){
-          escreva("Digite um número maior que 0 (zero)")
-          escreva("\nDigite os 3 números meio do seu cpf: ")
-          leia(num2) 
-          limpa()    
-          } 
+        escreva("Números do CPF: ",numeros)
+        escreva("\nDigitos do CPF: ",digitos)     
       
-      escreva("\nDigite os 3 últimos numeros do seu cpf: ")
-      leia(num3)
-      limpa()
-
-        se(num3 <= 0){
-          escreva("Digite um número maior que 0 (zero)")
-          escreva("\nDigite os 3 últimos numeros do seu cpf: ")
-          leia(num3) 
-          limpa()    
-          } 
-
-      escreva("\nDigite os 2 números verificadores do seu cpf :")
-      leia(num4)
-      limpa()
-
-        se(num4 <= 0){
-          escreva("Digite um número maior que 0 (zero): ")
-          escreva("\nDigite os 2 números verificadores do seu cpf :")
-          leia(num4) 
-          limpa()    
-          } 
-
-      escreva("Seu cpf é: ",num1,".",num2,".",num3,"-",num4)
-
-  
   }
 }
