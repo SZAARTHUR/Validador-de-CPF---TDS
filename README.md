@@ -135,6 +135,22 @@ Receba um CPF completo e valide ele.
 - [X] Leia um CPF completo do usuário.
 - [X] Valide para que o CPF esteja nos formatos `XXX.XXX.XXX-YY` ou `XXXXXXXXXYY`.
 
+## Etapa 7: Dígito 1
+
+### Objetivos
+Calcular e encontrar o Primeiro Dígito Verificador - PDV.
+
+### Tarefas
+- [x] Receba um CPF válido do usuário (formatos suportados `XXX.XXX.XXX-YY` ou `XXXXXXXXXYY`).
+- [x] Se o formato não for válido, encerre o programa.
+- [x] Calcule o [Primeiro Dígito Verificador](#cálculo-do-primeiro-dígito) conforme especificado.
+- Ao final, mostre :
+    - [x] O CPF conforme foi digitado;
+    - [x] O Primeiro Dígito Verificador encontrado;
+    - [x] O resultado da comparação do PDV encontrado com o PDV do CPF digitado;
+- [x] A atualização do código tem que ser feito por um integrante que ainda não realizou um [`Pull Request`](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork);
+
+
 # Como usar checkbox no README
 
 Copie a seção `Desenvolvimento do Projeto` direto no seu `README.md`.<br>
